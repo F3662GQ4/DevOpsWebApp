@@ -1,13 +1,4 @@
 # ASP.NET
-- task: PowerShellOnTargetMachines@3
-  inputs:
-    Machines: '127.0.0.1'
-    UserName: 'test'
-    UserPassword: 'test'
-    InlineScript: |
-      # Write your powershell commands here.
-      
-      Write-Output "Hello World"
 # Build and test ASP.NET projects.
 # Add steps that publish symbols, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
